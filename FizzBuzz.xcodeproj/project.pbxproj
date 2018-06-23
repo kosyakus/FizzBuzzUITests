@@ -12,12 +12,13 @@
 		E1AAE58D20DAFCB0004A8452 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1AAE58B20DAFCB0004A8452 /* Main.storyboard */; };
 		E1AAE58F20DAFCB6004A8452 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1AAE58E20DAFCB6004A8452 /* Assets.xcassets */; };
 		E1AAE59220DAFCB6004A8452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1AAE59020DAFCB6004A8452 /* LaunchScreen.storyboard */; };
-		E1AAE5A820DAFCB6004A8452 /* FizzBuzzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AAE5A720DAFCB6004A8452 /* FizzBuzzUITests.swift */; };
 		E1AAE5B620DBE060004A8452 /* BrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AAE5B520DBE060004A8452 /* BrainTests.swift */; };
 		E1AAE5B820DBE1F8004A8452 /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AAE5B720DBE1F8004A8452 /* Brain.swift */; };
 		E1AAE5BA20DBF506004A8452 /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AAE5B920DBF506004A8452 /* GameTests.swift */; };
 		E1AAE5BC20DBF56F004A8452 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AAE5BB20DBF56F004A8452 /* Game.swift */; };
 		E1AAE5F820DE90A6004A8452 /* ViewControllerUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AAE5F720DE90A6004A8452 /* ViewControllerUnitTests.swift */; };
+		E1AAE5FA20DE989D004A8452 /* ViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AAE5F920DE989D004A8452 /* ViewControllerUITests.swift */; };
+		E1AAE5FC20DEF2EB004A8452 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AAE5FB20DEF2EA004A8452 /* Move.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,13 +49,14 @@
 		E1AAE59820DAFCB6004A8452 /* FizzBuzzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzBuzzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1AAE59E20DAFCB6004A8452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1AAE5A320DAFCB6004A8452 /* FizzBuzzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzBuzzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1AAE5A720DAFCB6004A8452 /* FizzBuzzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzUITests.swift; sourceTree = "<group>"; };
 		E1AAE5A920DAFCB6004A8452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1AAE5B520DBE060004A8452 /* BrainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainTests.swift; sourceTree = "<group>"; };
 		E1AAE5B720DBE1F8004A8452 /* Brain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brain.swift; sourceTree = "<group>"; };
 		E1AAE5B920DBF506004A8452 /* GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTests.swift; sourceTree = "<group>"; };
 		E1AAE5BB20DBF56F004A8452 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		E1AAE5F720DE90A6004A8452 /* ViewControllerUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerUnitTests.swift; sourceTree = "<group>"; };
+		E1AAE5F920DE989D004A8452 /* ViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerUITests.swift; sourceTree = "<group>"; };
+		E1AAE5FB20DEF2EA004A8452 /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				E1AAE59320DAFCB6004A8452 /* Info.plist */,
 				E1AAE5B720DBE1F8004A8452 /* Brain.swift */,
 				E1AAE5BB20DBF56F004A8452 /* Game.swift */,
+				E1AAE5FB20DEF2EA004A8452 /* Move.swift */,
 			);
 			path = FizzBuzz;
 			sourceTree = "<group>";
@@ -131,7 +134,7 @@
 		E1AAE5A620DAFCB6004A8452 /* FizzBuzzUITests */ = {
 			isa = PBXGroup;
 			children = (
-				E1AAE5A720DAFCB6004A8452 /* FizzBuzzUITests.swift */,
+				E1AAE5F920DE989D004A8452 /* ViewControllerUITests.swift */,
 				E1AAE5A920DAFCB6004A8452 /* Info.plist */,
 			);
 			path = FizzBuzzUITests;
@@ -213,6 +216,7 @@
 					};
 					E1AAE5A220DAFCB6004A8452 = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
 						TestTargetID = E1AAE58320DAFCB0004A8452;
 					};
 				};
@@ -269,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1AAE5FC20DEF2EB004A8452 /* Move.swift in Sources */,
 				E1AAE58A20DAFCB0004A8452 /* ViewController.swift in Sources */,
 				E1AAE5B820DBE1F8004A8452 /* Brain.swift in Sources */,
 				E1AAE58820DAFCB0004A8452 /* AppDelegate.swift in Sources */,
@@ -290,7 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1AAE5A820DAFCB6004A8452 /* FizzBuzzUITests.swift in Sources */,
+				E1AAE5FA20DE989D004A8452 /* ViewControllerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,6 +531,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FizzBuzzUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -535,6 +541,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = GB.FizzBuzzUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = FizzBuzz;
@@ -545,6 +552,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FizzBuzzUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
